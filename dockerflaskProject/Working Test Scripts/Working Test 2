@@ -24,16 +24,15 @@ def catalog_type():
         }), 400
 
     try:
-        extension = detect_filetype(link)
 
+        url_length = len(link)
+        extension = link[url_length - 3:url_length]
         return jsonify({
             "url": link,
-            "format": extension
+            "extension": extension
         }), 200
-
-    except requests.RequestException:
+    except:
         return jsonify({
-            "url": link,
             "error": "Couldn't download the file"
         }), 400
 
