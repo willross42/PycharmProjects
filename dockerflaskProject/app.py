@@ -34,7 +34,7 @@ def catalog_type():
     except requests.RequestException:
         return jsonify({
             "url": link,
-            "error": "Couldn't download the file"
+            "error": "File format unknown or unrecognizable."
         }), 400
 
 if __name__ == '__main__':

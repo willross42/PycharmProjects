@@ -1,0 +1,6 @@
+version: '3'
+services:
+  dockerflaskprojec:
+    image: dockerflaskproject
+    ports:
+      - "5000:5000"

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="febeb95e-7e85-42ea-8f04-56635acbc186" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Working Test Scripts/Working Test 2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Working Test Scripts/Working Test 3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flaskProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flaskProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +96,10 @@
       <workItem from="1614851354064" duration="1865000" />
       <workItem from="1614864071135" duration="10490000" />
       <workItem from="1614939404882" duration="10879000" />
-      <workItem from="1615289605912" duration="7383000" />
+      <workItem from="1615289605912" duration="9972000" />
+      <workItem from="1615367670038" duration="605000" />
+      <workItem from="1615382765535" duration="7085000" />
+      <workItem from="1615451071180" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Running successfully in docker container but hosted on 127.0.0.1:5000, not 0.0.0.0: 5000 as terminal suggests.">
       <created>1614949471115</created>
@@ -116,7 +120,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="Running successfully in docker container but hosted on 127.0.0.1:5000, not 0.0.0.0: 5000 as terminal suggests." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/dockerflaskProject$flaskProject.coverage" NAME="flaskProject Coverage Results" MODIFIED="1615296364937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/dockerflaskProject$flaskProject.coverage" NAME="flaskProject Coverage Results" MODIFIED="1615452019416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/flaskProject$flaskProject.coverage" NAME="flaskProject Coverage Results" MODIFIED="1614851356009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
