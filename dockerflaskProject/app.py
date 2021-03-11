@@ -27,8 +27,8 @@ def catalog_type():
         extension = detect_filetype(link)
 
         return jsonify({
-            "url": link,
-            "format": extension
+            "format": extension,
+            "url": link
         }), 200
 
     except requests.RequestException:
